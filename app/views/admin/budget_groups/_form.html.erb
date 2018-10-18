@@ -22,8 +22,7 @@
                      placeholder: t("admin.budget_groups.max_votable_headings") %>
         
         <div id="number_votes_per_heading_wrapper" class="<%= 'hide' unless @group.approval_voting? %>">
-            <%= f.select :number_votes_per_heading,
-                        (1..@group.headings.count),
+            <%= f.number_field :number_votes_per_heading,
                         label: t("admin.budget_groups.form.number_votes_per_heading"),
                         placeholder: t("admin.budget_groups.form.number_votes_per_heading")
             %>

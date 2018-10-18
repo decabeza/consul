@@ -27,10 +27,7 @@
           <h3>
             <%= group.name %> - <%= @ballot.heading_for_group(group).name %>
           </h3>
-          <%= link_to t("budgets.ballots.show.remaining.#{group.voting_style}_html",
-                      amount: group.approval_voting? ?
-                                group.number_votes_per_heading - @ballot.investments.by_group(group.id).count :
-                                @ballot.formatted_amount_available(@ballot.heading_for_group(group))),
+          <%= link_to t("budgets.ballots.show.remaining.#{group.voting_style}_html", amount: remaining_votes(@ballot, group)),
                       budget_group_path(@budget, group) %>
         </div>
         <% if @ballot.has_lines_in_group?(group) %>

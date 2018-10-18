@@ -24,7 +24,7 @@ App.Forms =
     )
 
   toggleSelect: ->
-    $('.js-toggle-select').unbind('change').on('change', ->
+    $('.js-toggle-select').on('change', ->
       dropdown = $(this)
       target = $(dropdown.data('toggle-selector'))
 

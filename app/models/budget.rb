@@ -194,5 +194,4 @@ class Budget < ActiveRecord::Base
   def generate_slug?
     slug.nil? || drafting?
   end
-
 end

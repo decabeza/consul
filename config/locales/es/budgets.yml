@@ -44,7 +44,7 @@ es:
       reviewing_ballots: Votación finalizada
       finished: Resultados
     voting_style:
-      knapsack: Knapsack
+      knapsack: Bolsa de dinero
       approval: Por aprovación
     index:
       title: Presupuestos participativos
