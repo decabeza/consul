@@ -56,6 +56,14 @@ FactoryBot.define do
       result_publication_date { Date.current - 2.days }
     end
 
+    trait :in_draft_phase do
+      start_date { Date.current - 5.days }
+      end_date { Date.current + 5.days }
+      draft_start_date { Date.current - 2.days }
+      draft_end_date { Date.current + 2.days }
+      draft_phase_enabled true
+    end
+
     trait :in_debate_phase do
       start_date { Date.current - 5.days }
       end_date { Date.current + 5.days }
@@ -90,6 +98,25 @@ FactoryBot.define do
     trait :open do
       start_date { 1.week.ago }
       end_date   { 1.week.from_now }
+    end
+
+    trait :empty do
+      start_date { Date.current - 5.days }
+      end_date { Date.current + 5.days }
+      debate_start_date nil
+      debate_end_date nil
+      draft_publication_date nil
+      allegations_start_date nil
+      allegations_end_date nil
+      proposals_phase_start_date nil
+      proposals_phase_end_date nil
+      result_publication_date nil
+      debate_phase_enabled false
+      allegations_phase_enabled false
+      proposals_phase_enabled false
+      draft_publication_enabled false
+      result_publication_enabled false
+      published true
     end
 
   end

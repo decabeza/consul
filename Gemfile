@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.10'
+gem 'rails', '4.2.11'
 
 gem 'acts-as-taggable-on', '~> 5.0.0'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'ahoy_matey', '~> 1.6.0'
 gem 'ancestry', '~> 3.0.2'
-gem 'autoprefixer-rails', '~> 9.1.4'
+gem 'autoprefixer-rails', '~> 8.2.0'
 gem 'browser', '~> 2.5.3'
 gem 'cancancan', '~> 2.3.0'
 gem 'ckeditor', '~> 4.2.3'
@@ -77,7 +77,7 @@ end
 group :test do
   gem 'capybara', '~> 2.17.0'
   gem 'coveralls', '~> 0.8.22', require: false
-  gem 'database_cleaner', '~> 1.6.1'
+  gem 'database_cleaner', '~> 1.7.0'
   gem 'email_spec', '~> 2.1.0'
   gem 'rspec-rails', '~> 3.8'
   gem 'selenium-webdriver', '~> 3.10'
