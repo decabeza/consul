@@ -74,7 +74,7 @@ Rails.application.configure do
   port:                 "587",
   domain:               "mail.communitychoices.scot",
   user_name:            "postmaster@mail.communitychoices.scot",
-  password:             "3f0171d4a686a643359b8b6f5e6a5a56-3939b93a-7d16621a",
+  password:             "",
   authentication:       "plain",
   enable_starttls_auto: true
 
