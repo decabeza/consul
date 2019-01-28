@@ -70,13 +70,13 @@ Rails.application.configure do
   # Uncomment the following block of code and add your SMTP service credentials
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = {
-  #   address:              'smtp.example.com',
-  #   port:                 587,
-  #   domain:               'example.com',
-  #   user_name:            '<username>',
-  #   password:             '<password>',
-  #   authentication:       'plain',
-  #   enable_starttls_auto: true }
+  address:              "smtp.mailgun.org",
+  port:                 "587",
+  domain:               "mail.communitychoices.scot",
+  user_name:            "postmaster@mail.communitychoices.scot",
+  password:             "3f0171d4a686a643359b8b6f5e6a5a56-3939b93a-7d16621a",
+  authentication:       "plain",
+  enable_starttls_auto: true
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
