@@ -4,7 +4,7 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 
-.investment-project-description{
+div.investment-project-description{
     height:auto ;
 }
 
@@ -14,4 +14,16 @@
 
 .total-amount{
     display:none ;
+}
+ 
+.no-margin-top {
+    margin-top:0 ;
+}
+
+.callout.success {
+    display: none ;
+}
+
+span.budget_investment_40_sidebar{
+    display: none ;
 }
