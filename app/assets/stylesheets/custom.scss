@@ -4,7 +4,7 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 
-.investment-project-description p{
+.investment-project-description {
     height:auto ;
 }
 
@@ -27,4 +27,8 @@
 .lead {
     font-size: 1rem;
     white-space: pre-wrap;
+}
+
+.ballot-list span {
+    display: none
 }
