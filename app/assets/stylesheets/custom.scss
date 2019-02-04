@@ -8,27 +8,19 @@
     height:auto ;
 }
 
-.investment-project-amount{
+.investment-project-amount, .total-amount, .ballot-list, h2.sidebar-title, .callout.success{
     display:none ;
 }
 
-.total-amount{
-    display:none ;
+footer .title, footer p {
+    display:none
 }
  
 .no-margin-top {
     margin-top:0 ;
 }
 
-.callout.success {
-    display:none ;
-}
-
 .lead {
     font-size: 1rem;
     white-space: pre-wrap;
-}
-
-.ballot-list span {
-    display: none
 }
