@@ -1,0 +1,59 @@
+diff --git a/app/controllers/verification/verified_user_controller.rb b/app/controllers/verification/verified_user_controller.rb
+index e637bb2..d794537 100644
+--- a/app/controllers/verification/verified_user_controller.rb
++++ b/app/controllers/verification/verified_user_controller.rb
+@@ -5,7 +5,7 @@ class Verification::VerifiedUserController < ApplicationController
+ 
+   def show
+     @verified_users = VerifiedUser.by_user(current_user)
+-    redirect_to new_sms_path unless user_data_present?
++    redirect_to verification_path unless user_data_present?
+   end
+ 
+   private
+diff --git a/app/models/custom/user.rb b/app/models/custom/user.rb
+new file mode 100644
+index 0000000..32b26e4
+--- /dev/null
++++ b/app/models/custom/user.rb
+@@ -0,0 +1,15 @@
++require_dependency Rails.root.join("app", "models", "user").to_s
++
++class User
++  def sms_verified?
++    true
++  end
++
++  def verification_sms_sent?
++    true
++  end
++
++  def verification_letter_sent?
++    true
++  end
++end
+diff --git a/app/models/custom/verification/residence.rb b/app/models/custom/verification/residence.rb
+index 3984221..8cae663 100644
+--- a/app/models/custom/verification/residence.rb
++++ b/app/models/custom/verification/residence.rb
+@@ -11,6 +11,20 @@ class Verification::Residence
+   validate :postal_code_is_allowed
+   validate :document_number_uniqueness_if_present
+ 
++  def geozone
++    nil
++  end
++
++  def gender
++    nil
++  end
++
++  alias_method :default_save, :save
++
++  def save
++    default_save && user.update(verified_at: Time.current)
++  end
++
+   private
+ 
+     def retrieve_census_data

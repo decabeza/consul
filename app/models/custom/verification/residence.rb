@@ -11,6 +11,20 @@ class Verification::Residence
   validate :postal_code_is_allowed
   validate :document_number_uniqueness_if_present
 
+  def geozone
+    nil
+  end
+
+  def gender
+    nil
+  end
+
+  alias_method :default_save, :save
+
+  def save
+    default_save && user.update(verified_at: Time.current)
+  end
+
   private
 
     def retrieve_census_data
