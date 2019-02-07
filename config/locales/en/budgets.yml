@@ -52,7 +52,7 @@ en:
       section_header:
         icon_alt: Participatory budgets icon
         title: Participatory budgets
-        help: Help with participatory budgets
+        help: More about participatory budgets
         all_phases: See all phases
       all_phases: Budget investment's phases
       map: Budget investments' proposals located geographically
@@ -62,8 +62,8 @@ en:
       finished_budgets: Finished participatory budgets
       see_results: See results
       section_footer:
-        title: Help with participatory budgets
-        description: With the participatory budgets the citizens decide to which projects is destined a part of the budget.
+        title: About participatory budgets
+        description: Participatory budgeting (PB) is a process of democratic deliberationand decision-making, in which ordinary people decide how to allocate part of a municipal or public budget. Participatory budgeting allows citizens to identify, discuss, and prioritize public spending projects, and gives them the power to make real decisions about how money is spent.
       milestones: Milestones
     investments:
       form:
