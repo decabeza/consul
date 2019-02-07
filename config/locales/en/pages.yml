@@ -57,7 +57,7 @@ en:
           faq_2_description: "The activation email is the handshake to ensure you have correct access to the email you have registered with."
           faq_3_title: "How long can it take?"
           faq_3_description: "It can take up to 30 minutes for the activation email to be sent. If after this time you are sure the email containing your activation code has not arrived please confirm the email address you used when registering, and request that another activation email is sent."
-          faq_4_title: "How can I add noreply@mail.communitiychoices.scot to my Hotmail whitelist?"
+          faq_4_title: "How can I add noreply@mail.communitychoices.scot to my Hotmail whitelist?"
           faq_4_description: "Log into your hotmail account. Open your mailbox and click the cog in the upper right hand corner and then Options from the drop down menu. Click the Safe and Blocked Senders link. Click the Safe Senders link. Copy and paste noreply@myjobscotland.gov.uk into the dialog box titled Type an address or domain. If you are still having problems please contact consul@cosla.gov.uk"    
       other:
         title: "Other information of interest"
