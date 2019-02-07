@@ -42,6 +42,9 @@ en:
 	      description: "To encourage more people to attend the event and to reflect feedback from previous CB events, there will be a weighting applied to the on-line votes. This means that voting in person at the event will be worth more to the overall scores."
 	      description: "Please note that the amount of revenue and capital funding available is limited. While some groups will secure their full amounts, depending on the scoring and the amounts available some groups may secure only revenue or capital, or no funding at all."
 	      description: "Whatever the outcome groups can contact the Communities Team (see contact details below) following the event for support and guidance."
+        link: "participative budgets"
+        image_alt: "Different phases of a participatory budget"
+        figcaption_html: '"Support" and "Voting" phases of participatory budgets.'
       polls:
         title: "Polls"
         description: "The %{link} section is activated each time a proposal reaches 1% support and goes to the vote or when the City Council proposes an issue for people to decide on."
