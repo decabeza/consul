@@ -30,7 +30,9 @@ en:
         figcaption_html: 'Button to "Support" a proposal.'
       budgets:
         title: "Participatory Budgeting"
-        description: "The %{link} section helps people make a direct decision on what part of the municipal budget is spent on."
+        description: "The %{link} section helps people make a direct decision 
+        
+        on what part of the municipal budget is spent on."
         link: "participative budgets"
         image_alt: "Different phases of a participatory budget"
         figcaption_html: '"Support" and "Voting" phases of participatory budgets.'
