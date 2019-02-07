@@ -1,4 +1,4 @@
-Rails.application.configure do
+  rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -78,6 +78,7 @@ Rails.application.configure do
   # password:             "",
   # authentication:       "plain",
   # enable_starttls_auto: true
+  # }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
