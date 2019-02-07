@@ -52,7 +52,7 @@ en:
           title: "Frequently Asked Questions"
           description: "Use this page to resolve the common FAQs to the users of site."
           faq_1_title: "Why has my activation email not arrived for my new Community Choices account?"
-          faq_1_description: "There can be a variety of reasons why an activation hasn't arrived e.g. typo in your email address when registering etc but there are things you can check/do. Check your spam or junk mail folder around the date you initially registered to make sure that the email has not been diverted by your mail provider e.g. gmail, yahoo, hotmail etc. Please add noreply@mail.communitiychoices.scot to your list of contacts when logged into your email account as this will help to ensure the emails arrive in your inbox."
+          faq_1_description: "There can be a variety of reasons why an activation hasn't arrived e.g. typo in your email address when registering etc but there are things you can check/do. Check your spam or junk mail folder around the date you initially registered to make sure that the email has not been diverted by your mail provider e.g. gmail, yahoo, hotmail etc. Please add noreply@mail.communitychoices.scot to your list of contacts when logged into your email account as this will help to ensure the emails arrive in your inbox."
           faq_2_title: "Why do i need an activation email?"
           faq_2_description: "The activation email is the handshake to ensure you have correct access to the email you have registered with."
           faq_3_title: "How long can it take?"
