@@ -11,9 +11,9 @@ en:
         no_balloted_group_yet: "You have not voted on this group yet, go vote!"
         remove: Remove vote
         voted_html:
-          one: "You have voted for <span>one</span> project."
-          other: "You have voted for <span>%{count}</span> projects."
-        voted_info_html: "You can change your vote at any time until the close of this phase.<br> Please make sure you use all 10 votes."
+          one: "You have voted for <span>one</span> Community Project."
+          other: "You have voted for <span>%{count}</span> Community Projects."
+        voted_info_html: "You can change your vote at any time until the end of this phase of voting.<br> Please make sure you use all 10 votes."
         zero: You have not voted any investment project.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
@@ -56,9 +56,9 @@ en:
         all_phases: See all phases
       all_phases: Budget investment's phases
       map: Budget investments' proposals located geographically
-      investment_proyects: List of all investment projects
-      unfeasible_investment_proyects: List of all unfeasible investment projects
-      not_selected_investment_proyects: List of all investment projects not selected for balloting
+      investment_proyects: 
+      unfeasible_investment_proyects: 
+      not_selected_investment_proyects: 
       finished_budgets: Finished participatory budgets
       see_results: See results
       section_footer:
@@ -156,11 +156,11 @@ en:
         different_heading_assigned_html: "You have active votes in another heading: %{heading_link}"
         change_ballot: "If your change your mind you can remove your votes in %{check_ballot} and start again."
         check_ballot_link: "check my ballot"
-        price: "This heading have a budget of"
+        price: ""
     progress_bar:
       assigned: "You have assigned: "
       available: "Available budget: "
-      remaining_votes_html: "You have selected <strong>%{casted_votes}</strong> of <strong>%{votes_available}</strong> projects."
+      remaining_votes_html: "You have selected <strong>%{casted_votes}</strong> of <strong>%{votes_available}</strong> projects.<br> All votes can be changed up until the close of voting on 23rd February at 5pm."
     show:
       group: Group
       phase: Actual phase
