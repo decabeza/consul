@@ -69,8 +69,11 @@ en:
       title: Privacy Policy
       subtitle: This short form Privacy Notice is provided for the purposes of the General Data Protection Regulation (GDPR) and is provided for all West Dunbartonshire Council services.
       info_items:
-            description: We will use your personal details (known as Personal Data) to provide you with the service(s) which you or someone else (with your consent) have asked us to provide as part of a contract or where we are under obligation to do so (public task or legal obligation). We will also use your personal details for purposes of crime prevention and crime detection and/or when required by law and will share it with other public bodies for that purpose. For a fuller description of how we handle your data please see our Privacy Notice. Your details provided as part of your registration will only be used to form part of the evaluation of the Community Budgeting process. http://www.west-dunbarton.gov.uk/privacy/privacy-notice/
-
+            description: We will use your personal details (known as Personal Data) to provide you with the service(s) which you or someone else (with your consent) have asked us to provide as part of a contract or where we are under obligation to do so (public task or legal obligation). We will also use your personal details for purposes of crime prevention and crime detection and/or when required by law and will share it with other public bodies for that purpose. For a fuller description of how we handle your data please see our Privacy Notice. Your details provided as part of your registration will only be used to form part of the evaluation of the Community Budgeting process.
+          - field:
+            description:
+          - field:
+            description:
     accessibility:
       title: Accessibility
       description: |-
