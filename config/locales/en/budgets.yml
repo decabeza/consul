@@ -91,8 +91,8 @@ en:
         sidebar:
           my_ballot: My ballot
           voted_html:
-            one: "<strong>You have voted for one project</strong>"
-            other: "<strong>You have voted for %{count} projects</strong>"
+            one: "<strong>You have voted for one Community Project</strong>"
+            other: "<strong>You have voted for %{count} Community Projects</strong>"
           voted_info:
             knapsack_html: You can %{link} at any time until the close of this phase. No need to spend all the money available.
             approval_html: You can %{link} at any time until the close of this phase.
